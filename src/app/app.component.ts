@@ -10,7 +10,7 @@ export class AppComponent {
   title = 'starnet-project';
 
   bannerContent: IBannerContents = {
-    title: '<span style="background-image: linear-gradient(90deg, #FFDA16, #FFAC00); background-clip: text; -webkit-text-fill-color: transparent;"> Comunitatea StarNet</span> în premieră',
+    title: '<span class="highlighted"> Comunitatea StarNet</span> în premieră',
     description: "Devino membru al comunității StarNet și bucură-te de un mix de recompense, avantaje și experiențe unice absolut gratuit.",
     imageUrl: "assets/img/landing-image.svg",
     imageMobileUrl: "assets/img/mobile-landing-image.svg"

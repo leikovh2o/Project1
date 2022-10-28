@@ -1,4 +1,4 @@
-import { AfterViewChecked, ChangeDetectorRef, Component, Input } from '@angular/core';
+import { AfterViewChecked, ChangeDetectorRef, Component, Input, ViewEncapsulation } from '@angular/core';
 import { MediaMatcher } from '@angular/cdk/layout';
 import { IBannerContents } from './models/banner.model';
 
@@ -6,7 +6,8 @@ import { IBannerContents } from './models/banner.model';
 @Component({
   selector: 'starnet-banner',
   templateUrl: './banner.component.html',
-  styleUrls: ['./banner.component.scss']
+  styleUrls: ['./banner.component.scss'],
+  encapsulation:ViewEncapsulation.None
 })
 
 export class BannerComponent implements AfterViewChecked{
