@@ -1,0 +1,11 @@
+<div class="starnet-banner">
+  <div class="starnet-banner__image">
+    <img decoding="sync" importance="high" loading="eager" [src]="mdqMobile.matches ? bannerContent.imageMobileUrl : bannerContent.imageUrl"/>
+  </div>
+  <div class="starnet-banner__content">
+    <div class="starnet-banner__content__title" [innerHTML]="bannerContent.title"></div>
+    <div class="starnet-banner__content__description">
+      {{bannerContent.description}}
+    </div>
+  </div>
+</div>
